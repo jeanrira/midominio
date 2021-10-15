@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <?php echo '<h1>Hola tuti mundi</h1>'; ?>
+    <?php echo '<h1>Hola tuti mundi, beh</h1>'; ?>
 </body>
 
 </html>
