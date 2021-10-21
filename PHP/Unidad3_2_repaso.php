@@ -10,7 +10,7 @@
     <?php
     $VAR1 = 25;
     $VAR2 = "veinticinco";
-    define('CONST1', 3.14159);
+    define("CONST1", 3.14159);
 
     echo "<h3> Variable 1: </h3>";
     echo $VAR1;
@@ -29,7 +29,7 @@
     echo "<h3> Constante 1: </h3>";
     echo CONST1;
     echo "</br>";
-    echo gettype ('CONTS1');
+    echo gettype (CONST1);
     ?>
 </body>
 </html>
