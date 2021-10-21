@@ -17,9 +17,9 @@ $b = $a+$b;// ¿Cuánto vale $a y $b? Compruébalo con echo
 echo "a=".$a;
 echo "</br>b=".$b;
 echo "</br>";
-echo ++$a;    // Se le suma uno a a
+echo ++$a;    // Se le suma uno a $a
 echo "</br>";
-echo --$b;  // Se le resta uno a b
+echo --$b;  // Se le resta uno a $b
 ?>
 <!--
 a   b
