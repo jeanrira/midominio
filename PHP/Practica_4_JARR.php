@@ -51,6 +51,8 @@
      ", si dividimos las variables de numero el resultado es: ".$VARDIV.
      ", y por último, si mostramos el resto de las variables de numero el resultado es:  "
      .$VARREST.".</p>";
+//Tambien podias hacer echo "<p>blablabla $var1</p>" y te hubiese salido igual la variable. SEGURO???
+
 
     echo "<h3>Asignar a una variable numérica la división de la misma con otra variable numérica</h3>";
     $VAR6ANTES = $VAR6;
