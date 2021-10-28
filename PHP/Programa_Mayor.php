@@ -15,6 +15,9 @@
     if ($var1 > $var2 && $var1 > $var3) {
         echo "el mayor valor es $var1";
     }
+    elseif (condition) {
+        # code...
+    }
 
     ?>
 </body>
