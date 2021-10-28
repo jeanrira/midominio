@@ -15,6 +15,7 @@
      $VAR4 = 20;
      $VAR5 = 'VEINTE';
      $VAR6 = 789.101;
+     // Las variables van en Minúsculas y las constantes en Mayúsculas
 
     echo "<h3>Crear dos variable constantes</h3>";
      define("CONST1", 1.2345);
