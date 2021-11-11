@@ -9,7 +9,7 @@
 <body>
     <?php
     $nombre = $_GET["nameform"];
-    $apellido = $_GET["lnameform"];
+    $apellido = $_REQUEST["lnameform"];
 
     echo "hello, como estai " . $nombre . " " .$apellido;
     ?>

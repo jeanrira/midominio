@@ -13,7 +13,7 @@
     </form> -->
 
     <!-- Asume de manera prefeterminada que el metodo es GET (QUe se ve en la url) -->
-    <!-- En el metodo POST se envian a traves de  por lo que no se ven en la url -->
+    <!-- En el metodo POST se envian a traves de los paquets por lo que no se ven en la url -->
     <!-- con la url en el action le manda los parametros ahí -->
     <form action="http://jesusrincon.midominio.com/midominio/Formularios/recibedatos.php" method="">
         <label for="nameform">Introduce tu Nombre: </label>
@@ -22,7 +22,28 @@
         <label for="lnameform">Introduce tu Apellido: </label>
         <input type="text" name="lnameform" id="idapellido">
         </br>
+        <H3>Todos los elementos de un fomrulrio</H3>
+        <input type="radio" name="fradio" id="">
+        </br>
+        <input type="checkbox" name="" id="">
+        </br>
+        <input type="button" value="">
+        </br>
+        <input type="file" name="" id="">
+        </br>
+        <input type="hidden" name="">
+        </br>
+        <input type="password" name="" id="">
+        </br>
+        <select name="colores" id="idcolores">
+            <option value="">Seleccione un opcion</option>
+            <option value="rojo">rojo</option>
+            <option value="verde">verde</option>
+            <option value="azul">azul</option>
+        </select>
+        </br>
         <input type="submit" value="enviar">
+        <input type="reset" value="Borrar">
     </form>
 </body>
 </html>
