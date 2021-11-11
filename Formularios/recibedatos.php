@@ -11,7 +11,7 @@
     $nombre = $_GET["nameform"];
     $apellido = $_GET["lnameform"];
 
-    echo "hello, como estai ".$nombre .$apellido;
+    echo "hello, como estai " . $nombre . " " .$apellido;
     ?>
 </body>
 </html>
