@@ -8,17 +8,14 @@
 </head>
 <body>
     <?php
-      // $cuenta = 1;
+      $cuenta = 1;
 
-      // while ($cuenta < 101 && $cuenta != 5){
-      // echo $cuenta++."</br>";
-      // }
-
-	for($i=1;$i !=10;$i++){
-		echo $i . "<br/>";
-}
-
-// if la division del la variable da cero sumale otro hasta 100
+      while ($cuenta < 100){
+        if ($cuenta % 5 == 0){
+        $cuenta++;
+        };
+      echo $cuenta++."</br>";
+      }
     ?>
 </body>
 </html>
