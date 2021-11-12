@@ -8,6 +8,11 @@
 </head>
 <body>
     <?php
+      $cuenta = 1;
+
+      while ($cuenta < 101){
+      echo $cuenta++."</br>";
+      }
     ?>
 </body>
 </html>
