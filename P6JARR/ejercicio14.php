@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+</head>
+<body>
+    <?php
+    $cuenta = 1;
+    $impares=1;
+
+	while ($cuenta < 11){
+        if ( $cuenta % 2 != 0){
+            echo "El valor del producto de los impares es: ".$cuenta * $impares."<br/>";
+            $impares=$cuenta * $impares;
+        };
+        $cuenta++;
+    }
+    ?>
+</body>
+</html>
