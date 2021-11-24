@@ -9,7 +9,9 @@
 <body>
     <?php
     $i = 0;
-
+// Usamos un bucle while para que repita las operaciones
+// y con la variable de "menor que" hacemos que el bucle pare
+// en el momento que la variable i llegue a 10
     while ($i < 10) {
         $i++;
         echo "Tabla del $i";
