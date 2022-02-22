@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+<!-- Creamos un formulario en el cual el usuario pueda escribir sus credenciales y enviarlas
+utilizando el metodo POST por seguridad -->
+    <h1>Iniciar Sesion</h1>
+    <form action="ejercicio2.php" method="post">
+        <label for="user">Introduzca su Usuario</label>
+        <input type="text" name="user">
+        <br/>
+        <label for="pass">Introduzca su Contraseña</label>
+        <input type="password" name="pass">
+        <br/>
+        <input type="submit" value="Iniciar Sesion">
+    </form>
+</body>
+</html>
